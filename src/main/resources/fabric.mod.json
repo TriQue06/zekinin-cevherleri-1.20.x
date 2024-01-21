@@ -5,7 +5,7 @@
 	"name": "ZekininCevherleri",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"TriQue"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,15 +16,12 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.trique.ZekininCevherleri"
+			"net.trique.zekinincevherleri.ZekininCevherleri"
 		],
 		"fabric-datagen": [
-			"net.trique.ZekininCevherleriDataGenerator"
+			"net.trique.zekinincevherleri.ZekininCevherleriDataGenerator"
 		]
 	},
-	"mixins": [
-		"zekinincevherleri.mixins.json"
-	],
 	"depends": {
 		"fabricloader": ">=0.15.6",
 		"minecraft": "~1.20.1",
